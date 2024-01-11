@@ -10,7 +10,7 @@ The data recovered from [STRAW](https://arxiv.org/abs/2108.04961) provided the f
 
 The following equation estimates the single DOM average rate as a function of number of PMT hits and the rate of the bioluminescence.
 
-$$sdr(n) = \sum_{r=0}^{n} rate^{n-r}  nCr(8,n-r)  (K40)^{r}  nCr(8,r)  (10ns)^{n-1}  (\% t)$$
+$$sdr(n) = \sum_{r=0}^{n} rate^{n-r}  nCr(8,n-r)  (K40)^{r}  nCr(8,r)  (10ns)^{n-1}  (f t)$$
 
 The fraction of time at each rate is shown by the following data recovered from the [STRAW](https://arxiv.org/abs/2108.04961) paper.
 
