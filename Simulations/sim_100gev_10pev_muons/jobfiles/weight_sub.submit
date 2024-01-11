@@ -1,0 +1,21 @@
+
+executable = /data/p-one/mirosant/sim051/jobfiles/weight_sub.sh
+
+Arguments = $(Item)
+output = /data/p-one/mirosant/sim051//logfiles/weight_sub_$(Item).out
+error = /data/p-one/mirosant/sim051//logfiles/weight_sub_$(Item).err
+log = /data/p-one/mirosant/sim051//logfiles/weight_sub_$(Item).log
+
++SingularityImage = "/data/p-one/icetray_offline_lw.sif"
+
+Universe = vanilla
+request_memory = 4GB
+request_cpus = 1
+requirements = HasSingularity
+requirements = CUDADeviceName == "NVIDIA TITAN Xp"
+
+notification = never
+
++TransferOutput=""
+
+queue from seq 1 100 |

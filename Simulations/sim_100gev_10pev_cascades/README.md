@@ -1,0 +1,1 @@
+This simulation generates electron and/or tau neutrinos isotropically from 100GeV to 10PeV with LeptonInjector. The sampled neutrinos follow a flat energy distribution. The 10-string detector has a string separation of 80m. The photons are propagated with CLSim. The propagated photons go into the DOMLauncher module to finally go to the Trigger module.
