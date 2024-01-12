@@ -20,7 +20,7 @@ The class used for the analysis can be found in [Analysis/trigger_rates.ipynb](h
 
  <img src='https://github.com/SantMiro/P_ONE_Trigger/blob/main/Figures/singleDOMrate.jpg' width = '650' height = '550'>
 
-
+The takeaway of this analysis is that the trigger mechanism cannot look for events that hit 2 PMTs in a DOM because it will saturate the availabale 40Hz per DOM bandwidth at all times. The 3PMT case allows for triggering because the rate can be below the 40Hz as long as the PMT rate does not exceed the 600kHz mark. 
 
 
 ## Simulation
