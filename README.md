@@ -16,6 +16,12 @@ The fraction of time at each rate is shown by the following data recovered from 
 
  <img src='https://github.com/SantMiro/P_ONE_Trigger/blob/main/Figures/straw_rates.jpg' width = '650' height = '550'>
 
+The class used for the analysis can be found in [Analysis/trigger_rates.ipynb](https://github.com/SantMiro/P_ONE_Trigger/blob/main/Analysis/trigger_rates.ipynb). The resulting single DOM average rate estimation is shown below:
+
+ <img src='https://github.com/SantMiro/P_ONE_Trigger/blob/main/Figures/singleDOMrate.jpg' width = '650' height = '550'>
+
+
+
 
 ## Simulation
 Lists the different simulation files used for the analysis.
